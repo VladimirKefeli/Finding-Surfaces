@@ -13,6 +13,7 @@
 		DB434DDD25FC9C1700C4B014 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB434DDB25FC9C1700C4B014 /* Main.storyboard */; };
 		DB434DDF25FC9C1C00C4B014 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB434DDE25FC9C1C00C4B014 /* Assets.xcassets */; };
 		DB434DE225FC9C1C00C4B014 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB434DE025FC9C1C00C4B014 /* LaunchScreen.storyboard */; };
+		DB434DEC25FCBE8C00C4B014 /* screenshot01.PNG in Resources */ = {isa = PBXBuildFile; fileRef = DB434DEB25FCBE8B00C4B014 /* screenshot01.PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DB434DDE25FC9C1C00C4B014 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB434DE125FC9C1C00C4B014 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB434DE325FC9C1C00C4B014 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB434DEB25FCBE8B00C4B014 /* screenshot01.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot01.PNG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		DB434DD425FC9C1700C4B014 /* Finding Surfaces */ = {
 			isa = PBXGroup;
 			children = (
+				DB434DEA25FCBE5300C4B014 /* Screenshots */,
 				DB434DD525FC9C1700C4B014 /* AppDelegate.swift */,
 				DB434DD725FC9C1700C4B014 /* art.scnassets */,
 				DB434DD925FC9C1700C4B014 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				DB434DE325FC9C1C00C4B014 /* Info.plist */,
 			);
 			path = "Finding Surfaces";
+			sourceTree = "<group>";
+		};
+		DB434DEA25FCBE5300C4B014 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				DB434DEB25FCBE8B00C4B014 /* screenshot01.PNG */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +135,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB434DEC25FCBE8C00C4B014 /* screenshot01.PNG in Resources */,
 				DB434DD825FC9C1700C4B014 /* art.scnassets in Resources */,
 				DB434DE225FC9C1C00C4B014 /* LaunchScreen.storyboard in Resources */,
 				DB434DDF25FC9C1C00C4B014 /* Assets.xcassets in Resources */,
